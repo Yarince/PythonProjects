@@ -5,12 +5,14 @@ class ICalculator:
     """Calculator interface"""
     __metaclass__ = ABCMeta
 
+    @staticmethod
     @abstractmethod
-    def add(self, var): raise NotImplementedError
+    def add(var): raise NotImplementedError
 
+    @staticmethod
     @abstractmethod
-    def multiply(self, var): raise NotImplementedError
+    def multiply(var): raise NotImplementedError
 
+    @staticmethod
     @abstractmethod
-    def pow(self, var): raise NotImplementedError
-
+    def pow(var): raise NotImplementedError
