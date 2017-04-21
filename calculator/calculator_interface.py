@@ -14,5 +14,3 @@ class ICalculator:
     @abstractmethod
     def pow(self, var): raise NotImplementedError
 
-    @abstractmethod
-    def run(self): raise NotImplementedError
