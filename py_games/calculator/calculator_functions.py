@@ -1,6 +1,6 @@
 import math
 
-from calculator.calculator_interface import ICalculator
+from py_games.calculator import ICalculator
 
 
 class CalculatorFunctions(ICalculator):

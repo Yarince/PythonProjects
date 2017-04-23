@@ -1,6 +1,6 @@
 from pprint import pprint
 
-from calculator.calculator_functions import CalculatorFunctions
+from py_games.calculator.calculator_functions import CalculatorFunctions
 
 
 class MyCalculator:

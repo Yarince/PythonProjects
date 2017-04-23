@@ -1,4 +1,4 @@
-from calculator.my_calculator import MyCalculator
+from py_games.calculator.my_calculator import MyCalculator
 
 
 def main():
